@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('.cards-slider').slick({
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         autoplay: true,
         arrows: false,
         draggable: true,
@@ -22,7 +22,7 @@ $(document).ready(function(){
                 breakpoint: 1400,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                 }
             },
@@ -30,7 +30,7 @@ $(document).ready(function(){
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
                     infinite: true,
                 }
             },

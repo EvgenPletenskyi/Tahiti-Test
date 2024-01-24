@@ -194,15 +194,19 @@ p {
 .experience-section .advantage p {
   font-family: "Gotham Italic", sans-serif;
 }
+.experience-section .advantage a {
+  width: 100%;
+  height: 10vh;
+  max-width: 300px;
+  max-height: 80px;
+}
 .experience-section .advantage button {
   font-family: "Gotham Bold", sans-serif;
   margin-top: calc(1% + 27px);
   border: none;
   background-color: #ee2255;
   width: 100%;
-  height: 10vh;
-  max-width: 300px;
-  max-height: 80px;
+  height: 100%;
 }
 
 .why-section h2 {
@@ -255,13 +259,13 @@ p {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: calc(4% + 43px);
+  margin-bottom: calc(4% + 43px);
   color: #ee2255;
 }
 footer h4 {
   font-size: clamp(16px, 1.25vw, 18px);
   font-family: "Gotham Bold", sans-serif;
-  margin-bottom: 30px;
 }
 footer p {
   font-size: clamp(16px, 1.25vw, 18px);

@@ -230,7 +230,12 @@ p {
     p {
       font-family: $Gotham-Italic;
     }
-
+    a {
+      width: 100%;
+      height: 10vh;
+      max-width: 300px;
+      max-height: 80px;
+    }
     button {
       font-family: $Gotham-Bold;
       margin-top: calc(1% + 27px);
@@ -238,9 +243,7 @@ p {
       background-color: $red;
 
       width: 100%;
-      height: 10vh;
-      max-width: 300px;
-      max-height: 80px;
+      height: 100%;
     }
   }
 }
@@ -304,13 +307,14 @@ p {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: calc(4% + 43px);
+  margin-bottom: calc(4% + 43px);
   color: $red;
 
   h4 {
     font-size: clamp(16px, 1.25vw, 18px);
     font-family: $Gotham-Bold;
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
   }
 
   p {
