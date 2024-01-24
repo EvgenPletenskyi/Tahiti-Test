@@ -1,0 +1,52 @@
+//@font-face {
+//  font-family: "Gotham Book";
+//  src: url("https://db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.eot");
+//  src: url("https://db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.eot?#iefix")format("embedded-opentype"),
+//  url("https://db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.woff2")format("woff2"),
+//  url("https://db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.woff")format("woff"),
+//  url("https://db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.ttf")format("truetype"),
+//  url("https://db.onlinewebfonts.com/t/924ee4158324c02e3e0d62e54cafd14f.svg#Gotham Book")format("svg");
+//}
+//@font-face {
+//  font-family: "Gotham Light";
+//  src: url("https://db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.eot");
+//  src: url("https://db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.eot?#iefix")format("embedded-opentype"),
+//  url("https://db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.woff2")format("woff2"),
+//  url("https://db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.woff")format("woff"),
+//  url("https://db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.ttf")format("truetype"),
+//  url("https://db.onlinewebfonts.com/t/fc74760c72164d5321ac886797ce62eb.svg#Gotham-Light")format("svg");
+//}
+//@font-face {
+//  font-family: "Gotham Bold";
+//  src: url("https://db.onlinewebfonts.com/t/5d6f50ed2dde0e4ad455448f896c09f0.eot");
+//  src: url("https://db.onlinewebfonts.com/t/5d6f50ed2dde0e4ad455448f896c09f0.eot?#iefix")format("embedded-opentype"),
+//  url("https://db.onlinewebfonts.com/t/5d6f50ed2dde0e4ad455448f896c09f0.woff2")format("woff2"),
+//  url("https://db.onlinewebfonts.com/t/5d6f50ed2dde0e4ad455448f896c09f0.woff")format("woff"),
+//  url("https://db.onlinewebfonts.com/t/5d6f50ed2dde0e4ad455448f896c09f0.ttf")format("truetype"),
+//  url("https://db.onlinewebfonts.com/t/5d6f50ed2dde0e4ad455448f896c09f0.svg#Gotham Bold")format("svg");
+//}
+//@font-face {
+//  font-family: "Gotham Italic";
+//  src: url("https://db.onlinewebfonts.com/t/fb06511a156c5dfcbf8927a04ca05759.eot");
+//  src: url("https://db.onlinewebfonts.com/t/fb06511a156c5dfcbf8927a04ca05759.eot?#iefix")format("embedded-opentype"),
+//  url("https://db.onlinewebfonts.com/t/fb06511a156c5dfcbf8927a04ca05759.woff2")format("woff2"),
+//  url("https://db.onlinewebfonts.com/t/fb06511a156c5dfcbf8927a04ca05759.woff")format("woff"),
+//  url("https://db.onlinewebfonts.com/t/fb06511a156c5dfcbf8927a04ca05759.ttf")format("truetype"),
+//  url("https://db.onlinewebfonts.com/t/fb06511a156c5dfcbf8927a04ca05759.svg#Gotham Italic")format("svg");
+//}
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("../fonts/Gotham-Book.woff2"), type-of(woff2);
+}
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url("../fonts/Gotham-Bold.woff2"), type-of(woff2);
+}
+@font-face {
+  font-family: 'Gotham Italic';
+  src: url("../fonts/Gotham-BookItalic.woff2"), type-of(woff2);
+}
+@font-face {
+  font-family: 'Gotham Light';
+  src: url("../fonts/Gotham-Light.woff2"), type-of(woff2);
+}

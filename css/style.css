@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../fonts/Gotham-Book.woff2"), string;
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../fonts/Gotham-Bold.woff2"), string;
+}
+@font-face {
+  font-family: "Gotham Italic";
+  src: url("../fonts/Gotham-BookItalic.woff2"), string;
+}
+@font-face {
+  font-family: "Gotham Light";
+  src: url("../fonts/Gotham-Light.woff2"), string;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: calc(2% + 12px) 0;
+}
+.navbar button {
+  border: none;
+  background-color: #fff;
+  font-size: 25px;
+}
+.navbar .navbar-nav a {
+  font-family: "Gotham Book", sans-serif;
+  font-size: 18px;
+  color: #ee2255;
+}
+.navbar .navbar-nav .vr {
+  color: #ebeda3;
+  width: 2px;
+  height: 37px;
+  margin: 0 32px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero .hero-slider img {
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+  height: auto;
+  min-height: 600px;
+}
+.hero .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero .hero-text h1 {
+  font-size: clamp(26px, 4.4vw, 64px);
+  font-family: "Gotham Light", sans-serif;
+  margin-bottom: calc(2% + 12px);
+}
+.hero .hero-text h1 .bold-text {
+  font-family: "Gotham Bold", sans-serif;
+}
+.hero .hero-text p {
+  font-family: "Gotham Light", sans-serif;
+  font-size: clamp(18px, 2.2vw, 32px);
+}
+
+.cards-section {
+  padding-top: calc(4% + 25px);
+  background-color: rgba(235, 237, 163, 0.2);
+}
+.cards-section .cards-section-title {
+  font-family: "Gotham Light", sans-serif;
+}
+.cards-section .cards-section-title h2 {
+  font-size: clamp(24px, 2.8vw, 40px);
+  color: #3dbe98;
+  margin-bottom: calc(1% + 7px);
+}
+.cards-section .cards-section-title h2 .bold-text {
+  font-family: "Gotham Bold", sans-serif;
+}
+.cards-section .cards-section-title p {
+  margin-bottom: calc(2% + 25px);
+  font-size: 14px;
+  color: #333333;
+}
+.cards-section .cards-slider .slick-slide {
+  margin: 0 20px;
+}
+.cards-section .cards-slider .slick-list {
+  margin: 0 -20px;
+}
+.cards-section .cards-slider .card {
+  border: none;
+}
+.cards-section .cards-slider .card img {
+  border-radius: 0;
+  object-fit: cover;
+  height: 171px;
+}
+.cards-section .cards-slider .card .card-body h5 {
+  color: #3dbe98;
+  font-size: 24px;
+  font-family: "Gotham Book", sans-serif;
+}
+.cards-section .cards-slider .card .card-body p {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Gotham Book", sans-serif;
+}
+.cards-section .cards-slider .card .card-button {
+  height: 60px;
+  background-color: #3dbe98;
+  padding: 0 16px;
+}
+.cards-section .cards-slider .card .card-button p {
+  font-family: "Gotham Light", sans-serif;
+  font-size: 14px;
+}
+.cards-section .cards-slider .card .card-button span {
+  font-family: "Gotham Book", sans-serif;
+  font-size: 20px;
+}
+.cards-section .cards-slider .card .card-button img {
+  width: 20px;
+  height: auto;
+}
+
+.dropdown {
+  background-color: rgba(235, 237, 163, 0.2);
+  padding-top: 60px;
+  padding-bottom: calc(3% + 36px);
+}
+.dropdown h3 {
+  font-family: "Gotham Light", sans-serif;
+  font-size: 20px;
+  color: #333333;
+}
+.dropdown form {
+  margin-top: calc(3% + 11px);
+}
+.dropdown form .dropdown-islands {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.16);
+  height: 61px;
+}
+.dropdown form button, .dropdown form .form-select {
+  font-family: "Gotham Book", sans-serif;
+  font-size: clamp(16px, 1.38vw, 20px);
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+.dropdown form button:focus, .dropdown form button:active, .dropdown form .form-select:focus, .dropdown form .form-select:active {
+  outline: none;
+  box-shadow: none;
+}
+.dropdown form button {
+  width: 50%;
+  max-width: 226px;
+  background-color: #3dbe98;
+}
+
+.experience-section {
+  background-image: url("../img/Experience.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 651px;
+}
+.experience-section .experience-section-title {
+  font-family: "Gotham Light", sans-serif;
+  color: #ee2255;
+}
+.experience-section .experience-section-title h2 {
+  font-size: clamp(24px, 2.8vw, 40px);
+  margin-bottom: calc(1% + 7px);
+  padding-top: calc(3% + 42px);
+}
+.experience-section .experience-section-title h2 .bold-text {
+  font-family: "Gotham Bold", sans-serif;
+}
+.experience-section .experience-section-title p {
+  font-size: 14px;
+}
+.experience-section .advantage {
+  margin-top: calc(5% + 186px);
+  font-size: clamp(16px, 1.25vw, 18px);
+}
+.experience-section .advantage p {
+  font-family: "Gotham Italic", sans-serif;
+}
+.experience-section .advantage button {
+  font-family: "Gotham Bold", sans-serif;
+  margin-top: calc(1% + 27px);
+  border: none;
+  background-color: #ee2255;
+  width: 100%;
+  height: 10vh;
+  max-width: 300px;
+  max-height: 80px;
+}
+
+.why-section h2 {
+  font-family: "Gotham Light", sans-serif;
+  color: #ee2255;
+  font-size: clamp(24px, 2.8vw, 40px);
+  padding-top: calc(3% + 42px);
+}
+.why-section h2 .bold-text {
+  font-family: "Gotham Bold", sans-serif;
+}
+.why-section .why-section-body {
+  margin-top: calc(2% + 33px);
+  font-family: "Gotham Book", sans-serif;
+}
+.why-section .why-section-body p {
+  font-size: clamp(16px, 1.25vw, 18px);
+}
+
+.booking-section {
+  margin-top: calc(3% + 42px);
+  background-image: url("../img/Booking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 630px;
+  height: 100vh;
+}
+.booking-section .booking-section-wrapper {
+  background-color: rgba(0, 0, 0, 0.45);
+  height: 360px;
+  font-family: "Gotham Book", sans-serif;
+  font-size: clamp(16px, 1.25vw, 18px);
+}
+.booking-section .booking-section-wrapper h3 {
+  font-family: "Gotham Bold", sans-serif;
+  font-size: clamp(24px, 2.8vw, 40px);
+  margin-bottom: calc(3% + 13px);
+}
+.booking-section .booking-section-wrapper p {
+  margin-bottom: calc(3% + 13px);
+}
+.booking-section .booking-section-wrapper button {
+  font-family: "Gotham Bold", sans-serif;
+  background-color: #3dbe98;
+  width: 100%;
+  height: 10vh;
+  max-width: 300px;
+  max-height: 80px;
+  border: none;
+}
+
+footer {
+  margin-top: 100px;
+  color: #ee2255;
+}
+footer h4 {
+  font-size: clamp(16px, 1.25vw, 18px);
+  font-family: "Gotham Bold", sans-serif;
+  margin-bottom: 30px;
+}
+footer p {
+  font-size: clamp(16px, 1.25vw, 18px);
+  font-family: "Gotham Light", sans-serif;
+}
+
+@media (max-width: 617px) {
+  .cards-section .cards-slider .slick-slide {
+    margin: 0 70px;
+  }
+  .cards-section .cards-slider .slick-list {
+    margin: 0;
+  }
+}
+@media (max-width: 576px) {
+  .cards-section .cards-slider .slick-slide {
+    margin: 0 20px;
+  }
+  .cards-section .cards-slider .slick-list {
+    margin: 0;
+  }
+  .experience-section .advantage {
+    margin-top: 120px;
+    font-size: clamp(16px, 1.38vw, 20px);
+  }
+  .experience-section .advantage p {
+    font-family: "Gotham Italic", sans-serif;
+  }
+  .experience-section .advantage button {
+    margin-top: 120px;
+  }
+  .booking-section .booking-section-wrapper {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
